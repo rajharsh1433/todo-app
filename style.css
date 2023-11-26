@@ -110,3 +110,48 @@ span{
     color: #555;
     font-size: 17px;
 }
+
+
+@media screen and (max-width: 600px) {
+    .todo-app {
+        margin: 50px auto 20px; /* Adjusted margin for smaller screens */
+        padding: 20px; /* Adjusted padding for smaller screens */
+    }
+
+    .row {
+        padding-left: 10px; /* Adjusted padding for smaller screens */
+        margin-bottom: 15px; /* Adjusted margin for smaller screens */
+    }
+
+    input {
+        padding: 8px; /* Adjusted padding for smaller screens */
+    }
+
+    button {
+        padding: 12px 30px; /* Adjusted padding for smaller screens */
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+
+    ul li {
+        padding: 10px 8px 10px 40px; /* Adjusted padding for smaller screens */
+    }
+
+    ul li::before {
+        height: 20px; /* Adjusted size for smaller screens */
+        width: 20px; /* Adjusted size for smaller screens */
+        top: 8px; /* Adjusted position for smaller screens */
+        left: 5px; /* Adjusted position for smaller screens */
+    }
+
+    ul li span {
+        width: 30px; /* Adjusted size for smaller screens */
+        height: 30px; /* Adjusted size for smaller screens */
+        font-size: 18px; /* Adjusted font size for smaller screens */
+        line-height: 30px; /* Adjusted line height for smaller screens */
+    }
+
+    #task-count,
+    #task-completed {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+}
